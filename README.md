@@ -11,14 +11,14 @@ extending the [OpenShift UI](https://github.com/openshift/console)
 for the CNF Certification Suite Operator.
 
 This console plugin allows the possibility to run the
-[CNF certification suites](https://github.com/test-network-function/cnf-certification-test)
+[CNF certification suites](https://github.com/redhat-best-practices-for-k8s/certsuite)
 and review their results using the openshift console.
 
 ## Getting started
 
 In order to extend the openshift console with the `CNF certsuite plugin`,
 you'll need to install the
-[CNF certification suite operator](https://github.com/test-network-function/cnf-certsuite-operator)
+[CNF certification suite operator](https://github.com/redhat-best-practices-for-k8s/certsuite-operator)
 on your cluster.
 
 ## Enable plugin
@@ -50,7 +50,7 @@ you should see a new tab added to the navigation bar:
 <!-- markdownlint-enable-next-line no-inline-html -->
 
 You can add the required resources detailed
-[here](https://github.com/test-network-function/cnf-certsuite-operator?tab=readme-ov-file#how-to-customize-the-cnf-certification-suite-run),
+[here](https://github.com/redhat-best-practices-for-k8s/certsuite-operator?tab=readme-ov-file#how-to-customize-the-cnf-certification-suite-run),
 by navigating to the corresponding tabs and using the `create` option.
 
 The CNF certification test results will appear under the
